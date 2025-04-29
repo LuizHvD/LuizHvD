@@ -47,8 +47,7 @@ Atualmente estou focado em aprofundar meus conhecimentos em desenvolvimento web 
 
 ## 🐍 Snake Animation
 
-![snake gif](https://raw.githubusercontent.com/LuizHvD/LuizHvD/dist/github-contribution-grid-snake-dark.svg)
-
+![snake gif](https://raw.githubusercontent.com/LuizHvD/LuizHvD/output/dist/github-contribution-grid-snake.svg)
 
 ---
 
