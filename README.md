@@ -77,18 +77,6 @@ Participação no desenvolvimento e na evolução de uma plataforma SaaS de gest
 
 [use-amparo.com](https://use-amparo.com/)
 
-## Projetos em destaque
-
-### KURIO
-
-Marketplace de NFTs do desafio de front-end da Jungle. A aplicação, em React e TypeScript, reúne catálogo, detalhe do item, autenticação, carrinho e compra. Dados, sessão e atualizações em tempo real são simulados no navegador. O repositório inclui testes unitários com Vitest e testes end-to-end com Playwright.
-
-![Página inicial do KURIO, com a vitrine do marketplace](./assets/kurio-preview.png)
-
-React · TypeScript · Tailwind CSS · TanStack Query · TanStack Router · Vitest · Playwright
-
-[Código](https://github.com/LuizHvD/jungle-nft-marketplace) · [Demonstração](https://jungle-nft-marketplace-two.vercel.app)
-
 ## Atividade
 
 Contribuições deste perfil público. O trabalho corporativo permanece em repositórios privados e não entra nesta grade.
