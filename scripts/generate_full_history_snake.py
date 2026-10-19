@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Create light/dark animated contribution grids for every GitHub activity year.
+"""Create light/dark animated contribution grids for the current calendar year.
 
 Uses GitHub's GraphQL contribution calendar (not raw commit history).
-All calendar squares remain visible while a snake moves over each year.
+All squares from January 1 through today remain visible during the animation.
 """
 
 from __future__ import annotations
@@ -44,7 +44,7 @@ def graphql(token: str, query: str, variables: dict) -> dict:
             "Authorization": f"Bearer {token}",
             "Accept": "application/vnd.github+json",
             "Content-Type": "application/json",
-            "User-Agent": "github-profile-all-time-snake",
+            "User-Agent": "github-profile-current-year-snake",
         },
         method="POST",
     )
@@ -58,21 +58,6 @@ def graphql(token: str, query: str, variables: dict) -> dict:
     if not result.get("data", {}).get("user"):
         raise RuntimeError("GitHub user not found or contributions unavailable")
     return result["data"]["user"]
-
-
-def contribution_years(token: str, username: str, current_year: int) -> list[int]:
-    query = """
-    query($login: String!) {
-      user(login: $login) {
-        contributionsCollection { contributionYears }
-      }
-    }
-    """
-    user = graphql(token, query, {"login": username})
-    years = user["contributionsCollection"]["contributionYears"]
-    start = min(years) if years else current_year
-    # Cover even intervening years without contributions.
-    return list(range(start, current_year + 1))
 
 
 def get_year(token: str, username: str, year: int) -> dict[date, tuple[int, int]]:
@@ -227,8 +212,9 @@ def main():
     if not token:
         raise SystemExit("Missing GH_TOKEN / GITHUB_TOKEN")
     today = datetime.now(timezone.utc).date()
-    years = contribution_years(token, username, today.year)
-    annual_data = {year: get_year(token, username, year) for year in years}
+    # Only the current year, from Jan 1 through today (not the trailing 365 days).
+    years = [today.year]
+    annual_data = {today.year: get_year(token, username, today.year)}
     out = Path("dist")
     out.mkdir(parents=True, exist_ok=True)
     for mode, filename in (
@@ -239,7 +225,7 @@ def main():
             render(username, annual_data, today, mode), encoding="utf-8"
         )
     print(
-        f"Generated {years[0]}–{years[-1]} ("
+        f"Generated current calendar year {today.year} ("
         f"{sum(sum(c for _, c in v.values()) for v in annual_data.values())} "
         "visible GitHub contributions)"
     )
