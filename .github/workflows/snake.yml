@@ -1,31 +1,48 @@
-name: Generate Snake Animation
+name: Generate Full History Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Gera todo dia
+    - cron: "23 3 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+      - feature/all-time-contribution-snake
+    paths:
+      - ".github/workflows/snake.yml"
+      - "scripts/generate_full_history_snake.py"
+      - "tests/test_full_history_snake.py"
+
+permissions:
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Checkout do repositório
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Gerar snake
-        uses: Platane/snk@v3
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#22d3ee
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#22d3ee
+          python-version: "3.12"
 
-      - name: Commit e Push
+      - name: Validate generator
+        run: |
+          python -m py_compile scripts/generate_full_history_snake.py
+          python -m unittest discover -s tests -p "test_full_history_snake.py" -v
+
+      - name: Generate all historical contribution years
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: python scripts/generate_full_history_snake.py
+
+      - name: Commit updated SVGs
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: "Generate Snake Animation"
-          add: "dist/*.svg"
+          message: "chore: refresh full GitHub contribution history snake"
+          add: "dist/github-contribution-grid-snake*.svg"
