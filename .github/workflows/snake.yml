@@ -35,9 +35,14 @@ jobs:
 
       - name: Generate all historical contribution years
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GH_PROFILE_TOKEN || github.token }}
           GH_USERNAME: ${{ github.repository_owner }}
-        run: python scripts/generate_full_history_snake.py
+          HAS_PROFILE_TOKEN: ${{ secrets.GH_PROFILE_TOKEN != '' }}
+        run: |
+          if [ "$HAS_PROFILE_TOKEN" != "true" ]; then
+            echo "::warning::No GH_PROFILE_TOKEN configured. Private contribution totals may be unavailable; configure a read:user token to include your private activity."
+          fi
+          python scripts/generate_full_history_snake.py
 
       - name: Commit updated SVGs
         uses: EndBug/add-and-commit@v9
