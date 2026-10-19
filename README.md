@@ -1,42 +1,52 @@
 <div align="center">
-  <img src="./assets/accent.svg" width="72" height="4" alt="">
+  <img src="./assets/profile-banner.svg" width="100%" alt="Banner ilustrativo de desenvolvimento Front-end com interfaces web e mobile">
   <h1>Luiz Henrique da Veiga Dalagnol</h1>
+  <p><strong>Desenvolvedor Front-end · React · TypeScript · React Native</strong></p>
   <p>
-    <strong>Front-end Developer</strong><br>
-    React · TypeScript · React Native
+    Desenvolvo e evoluo aplicações web e mobile para produtos em produção.<br>
+    Experiência em soluções corporativas e SaaS, com foco em interfaces, integrações e usabilidade.
   </p>
-  <p>
-    Desenvolvo interfaces web e mobile para produtos em produção.<br>
-    Atuo em projetos corporativos e na evolução de um produto SaaS.<br>
-    O foco é componentização, integração com APIs e consistência de interface.
-  </p>
+  <p><sub>Rio Grande do Sul, Brasil · Aberto a oportunidades remotas</sub></p>
   <p>
     <a href="https://www.linkedin.com/in/luiz-hvd/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&amp;logo=linkedin&amp;logoColor=0A66C2"></a>
-    <a href="https://github.com/LuizHvD"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
     <a href="mailto:luizhenriqueveigadalagnol@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-111827?style=for-the-badge&amp;logo=gmail&amp;logoColor=EA4335"></a>
-    <a href="https://use-amparo.com/"><img alt="Amparo" src="https://img.shields.io/badge/Amparo-111827?style=for-the-badge"></a>
   </p>
-  <p><sub>Brasil · Aberto a oportunidades remotas</sub></p>
 </div>
 
 ## Sobre
 
-Atuo como desenvolvedor Front-end na Squadra Digital, em projetos corporativos para Honda e MRV&CO. Na Honda, mantenho e evoluo páginas e componentes com Vue.js e Drupal. Na MRV&CO, desenvolvo aplicações em React e React Native, com interfaces de gestão operacional e integração a APIs REST.
+Sou desenvolvedor Front-end na **Squadra Digital** e cofundador da [Amparo Sistemas](https://use-amparo.com/). Minha atuação combina desenvolvimento de interfaces, integração com APIs REST e evolução de produtos digitais, tanto em projetos corporativos quanto em uma plataforma SaaS.
 
-Também sou cofundador da [Amparo Sistemas](https://use-amparo.com/). Participo da evolução de uma plataforma SaaS voltada à gestão e operação de clínicas.
+## Experiência
+
+### Squadra Digital · Desenvolvedor Front-end
+
+**Honda** · Vue.js e Drupal · Atuação atual
+
+- Manutenção e evolução de páginas, componentes e conteúdos no ecossistema web da Honda.
+- Atualização de imagens, links e dados de produtos, com validação visual das alterações nos ambientes de desenvolvimento e homologação.
+
+**MRV&CO** · React, React Native e TypeScript · Experiência anterior
+
+- Desenvolvimento de interfaces web para relatórios operacionais, incluindo filtros e consultas integradas a APIs REST.
+- Evolução de funcionalidades mobile voltadas à gestão de equipes e ao apontamento de presença, com atenção à experiência em dispositivos Android.
+
+### Amparo Sistemas · Cofundador
+
+- Participação no desenvolvimento e na evolução de uma plataforma SaaS para clínicas, com recursos de agenda, acompanhamento de atendimentos e gestão de arquivos.
+- Atuação nas decisões de produto e na melhoria contínua dos fluxos da plataforma.
+
+[Conhecer a Amparo Sistemas](https://use-amparo.com/)
 
 ## Stack
-
-A ordem destaca o foco do trabalho. Os badges não representam nível de proficiência.
 
 ### Front-end e Mobile
 
 ![React](https://img.shields.io/badge/React-0C4A6E?style=flat-square&logo=react&logoColor=67E8F9)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0C4A6E?style=flat-square&logo=typescript&logoColor=93C5FD)
-![JavaScript](https://img.shields.io/badge/JavaScript-0C4A6E?style=flat-square&logo=javascript&logoColor=FDE68A)
 ![React Native](https://img.shields.io/badge/React_Native-0C4A6E?style=flat-square&logo=react&logoColor=67E8F9)
+![JavaScript](https://img.shields.io/badge/JavaScript-0C4A6E?style=flat-square&logo=javascript&logoColor=FDE68A)
 ![Next.js](https://img.shields.io/badge/Next.js-0C4A6E?style=flat-square&logo=nextdotjs&logoColor=white)
-<br>
 ![Vue.js](https://img.shields.io/badge/Vue.js-111827?style=flat-square&logo=vuedotjs&logoColor=4FC08D)
 
 ### Estilização e UI
@@ -59,41 +69,9 @@ A ordem destaca o foco do trabalho. Os badges não representam nível de profici
 ![GitHub](https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-111827?style=flat-square)
 
-## Experiência
-
-### Squadra Digital · Desenvolvedor Front-end
-
-**Honda** · Vue.js e Drupal
-
-Manutenção e evolução de aplicações e páginas web. Desenvolvimento e atualização de componentes em Vue.js. Gerenciamento de conteúdos e componentes em Drupal.
-
-**MRV&CO** · React, React Native e APIs REST
-
-Desenvolvimento de aplicações web e mobile. Interfaces para gestão operacional, integração com APIs REST, componentização e evolução de funcionalidades.
-
-### Amparo Sistemas · Cofundador
-
-Participação no desenvolvimento e na evolução de uma plataforma SaaS de gestão e operação de clínicas.
-
-[use-amparo.com](https://use-amparo.com/)
-
-## Atividade
-
-Contribuições deste perfil público. O trabalho corporativo permanece em repositórios privados e não entra nesta grade.
+## Atividade no GitHub
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-grid-snake-dark.svg">
   <img alt="Animação da grade de contribuições do GitHub de LuizHvD" src="./dist/github-contribution-grid-snake.svg">
 </picture>
-
-## Contato
-
-<div align="center">
-  <p>Para conversas sobre posições de Front-end e produtos digitais:</p>
-  <p>
-    <a href="https://www.linkedin.com/in/luiz-hvd/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&amp;logo=linkedin&amp;logoColor=0A66C2"></a>
-    <a href="https://github.com/LuizHvD"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
-    <a href="mailto:luizhenriqueveigadalagnol@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-111827?style=for-the-badge&amp;logo=gmail&amp;logoColor=EA4335"></a>
-    <a href="https://use-amparo.com/"><img alt="Amparo" src="https://img.shields.io/badge/Amparo-111827?style=for-the-badge"></a>
-  </p>
-</div>
