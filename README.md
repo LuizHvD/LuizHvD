@@ -1,60 +1,77 @@
-# 👋 Olá, eu sou o Luiz!
-
-Sou um desenvolvedor Full-Stack em formação, apaixonado por tecnologia, inovação e por transformar ideias em realidades.
-
-Atualmente estou focado em aprofundar meus conhecimentos em desenvolvimento web com as melhores tecnologias do mercado.
-
----
-
-## 🚀 Tecnologias & Ferramentas
-
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge&color=61DAFB)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
-![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white&style=for-the-badge)
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge)
-
----
-
-## 🌱 Atualmente estudando
-
-- Testes unitários com Jest e Testing Library
-- Integração de APIs REST
-- Desenvolvimento de interfaces acessíveis e responsivas
-- Metodologias ágeis (Scrum e Kanban)
-
----
-
-## 📚 Projetos em andamento
-
-- 📦 Sistema de catálogo de produtos (React + API)
-- 💸 Dashboard de controle financeiro pessoal (Next.js)
-
----
-
-## 📈 GitHub Stats
-
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LuizHvD&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuizHvD&layout=compact&langs_count=7&theme=tokyonight"/>
+  <img src="./assets/profile-banner.svg" width="100%" alt="Banner ilustrativo de desenvolvimento Front-end com interfaces web e mobile">
+  <h1>Luiz Henrique da Veiga Dalagnol</h1>
+  <p><strong>Desenvolvedor Front-end · React · TypeScript · React Native</strong></p>
+  <p>
+    Desenvolvo e evoluo aplicações web e mobile para produtos em produção.<br>
+    Experiência em soluções corporativas e SaaS, com foco em interfaces, integrações e usabilidade.
+  </p>
+  <p><sub>Rio Grande do Sul, Brasil · Aberto a oportunidades remotas</sub></p>
+  <p>
+    <a href="https://www.linkedin.com/in/luiz-hvd/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&amp;logo=linkedin&amp;logoColor=0A66C2"></a>
+    <a href="mailto:luizhenriqueveigadalagnol@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-111827?style=for-the-badge&amp;logo=gmail&amp;logoColor=EA4335"></a>
+  </p>
 </div>
 
----
+## Sobre
 
-## 🐍 Snake Animation
+Sou desenvolvedor Front-end na **Squadra Digital** e cofundador da [Amparo Sistemas](https://use-amparo.com/). Minha atuação combina desenvolvimento de interfaces, integração com APIs REST e evolução de produtos digitais, tanto em projetos corporativos quanto em uma plataforma SaaS.
 
-![snake gif](./dist/github-contribution-grid-snake.svg)
+## Experiência
 
----
+### Squadra Digital · Desenvolvedor Front-end
 
-## 📢 Vamos nos conectar?
+**Honda** · Vue.js e Drupal · Atuação atual
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/luiz-hvd/)
-[![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:luizhenriqueveigadalagnol@gmail.com)
+- Manutenção e evolução de páginas, componentes e conteúdos no ecossistema web da Honda.
+- Atualização de imagens, links e dados de produtos, com validação visual das alterações nos ambientes de desenvolvimento e homologação.
 
----
-🚀
+**MRV&CO** · React, React Native e TypeScript · Experiência anterior
+
+- Desenvolvimento de interfaces web para relatórios operacionais, incluindo filtros e consultas integradas a APIs REST.
+- Evolução de funcionalidades mobile voltadas à gestão de equipes e ao apontamento de presença, com atenção à experiência em dispositivos Android.
+
+### Amparo Sistemas · Cofundador
+
+- Participação no desenvolvimento e na evolução de uma plataforma SaaS para clínicas, com recursos de agenda, acompanhamento de atendimentos e gestão de arquivos.
+- Atuação nas decisões de produto e na melhoria contínua dos fluxos da plataforma.
+
+[Conhecer a Amparo Sistemas](https://use-amparo.com/)
+
+## Stack
+
+### Front-end e Mobile
+
+![React](https://img.shields.io/badge/React-0C4A6E?style=flat-square&logo=react&logoColor=67E8F9)
+![TypeScript](https://img.shields.io/badge/TypeScript-0C4A6E?style=flat-square&logo=typescript&logoColor=93C5FD)
+![React Native](https://img.shields.io/badge/React_Native-0C4A6E?style=flat-square&logo=react&logoColor=67E8F9)
+![JavaScript](https://img.shields.io/badge/JavaScript-0C4A6E?style=flat-square&logo=javascript&logoColor=FDE68A)
+![Next.js](https://img.shields.io/badge/Next.js-0C4A6E?style=flat-square&logo=nextdotjs&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-111827?style=flat-square&logo=vuedotjs&logoColor=4FC08D)
+
+### Estilização e UI
+
+![HTML5](https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css3&logoColor=1572B6)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-111827?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+![Styled Components](https://img.shields.io/badge/Styled_Components-111827?style=flat-square&logo=styledcomponents&logoColor=DB7093)
+
+### Testes e Qualidade
+
+![Jest](https://img.shields.io/badge/Jest-111827?style=flat-square&logo=jest&logoColor=C21325)
+![React Testing Library](https://img.shields.io/badge/React_Testing_Library-111827?style=flat-square&logo=testinglibrary&logoColor=E33332)
+
+### Ferramentas e Integrações
+
+![Drupal](https://img.shields.io/badge/Drupal-111827?style=flat-square&logo=drupal&logoColor=0678BE)
+![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
+![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F05032)
+![GitHub](https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-111827?style=flat-square)
+
+## Atividade no GitHub
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-grid-snake-dark.svg">
+  <img alt="Animação da grade de contribuições do GitHub de LuizHvD" src="./dist/github-contribution-grid-snake.svg">
+</picture>
