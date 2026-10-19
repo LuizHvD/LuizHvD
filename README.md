@@ -89,14 +89,6 @@ React · TypeScript · Tailwind CSS · TanStack Query · TanStack Router · Vite
 
 [Código](https://github.com/LuizHvD/jungle-nft-marketplace) · [Demonstração](https://jungle-nft-marketplace-two.vercel.app)
 
-### Studio Ghibli Collection
-
-Aplicação em React e TypeScript para explorar os filmes do Studio Ghibli, feita como desafio técnico. Consome a API pública do estúdio e oferece busca, filtros, ordenação, favoritos, marcação de assistidos e anotações com avaliação, persistidas no navegador. Não há deploy público ativo.
-
-React · TypeScript · Vite · Tailwind CSS
-
-[Código](https://github.com/LuizHvD/frontend-challenge-truckpag)
-
 ## Atividade
 
 Contribuições deste perfil público. O trabalho corporativo permanece em repositórios privados e não entra nesta grade.
